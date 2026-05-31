@@ -163,7 +163,7 @@ layers:
   - F11
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - BT CLR ALL
-  - BT CLR ALL
+  - $$mdi:bluetooth-off$$
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
