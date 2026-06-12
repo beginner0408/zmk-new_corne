@@ -1,61 +1,109 @@
 draw_config:
   n_columns: 1
   draw_key_sides: true
-  key_w: 60.0
-  key_h: 56.0
+
+  key_w: 64.0
+  key_h: 60.0
+
   split_gap: 45.0
+
   combo_w: 28.0
   combo_h: 26.0
+
   key_rx: 10.0
   key_ry: 10.0
+
   inner_pad_w: 2.0
   inner_pad_h: 2.0
+
   outer_pad_w: 40.0
   outer_pad_h: 56.0
+
   line_spacing: 1.2
   arc_radius: 6.0
-  append_colon_to_layer_header: true
-  small_pad: 2.0
-  svg_extra_style: |
-    /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
+  append_colon_to_layer_header: true
+
+  small_pad: 2.0
+
+  svg_extra_style: |
     svg.keymap {
       font-family: JetBrains Mono, Cascadia Code, Ubuntu Mono, monospace;
       font-size: 12px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
+      background: #0f172a;
     }
 
-    /* Color accent for held keys */
-    rect.held, rect.combo.held {
-        fill: #e0f2fe;
-    }
-    
+    /* Layer titles */
     .layer-header {
-    font-size: 18px;
-    font-weight: 700;
+      font-size: 18px;
+      font-weight: 700;
+      fill: #e2e8f0;
     }
 
+    /* Main keys */
     rect.key {
-    fill: #f8fafc;
+      fill: #1e293b;
+      stroke: #475569;
+      stroke-width: 1.5;
     }
-    
+
+    /* Combo boxes */
     rect.combo {
-        fill: #f1f5f9;
+      fill: #334155;
+      stroke: #64748b;
+      stroke-width: 1.2;
     }
-    /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
+
+    /* Held keys */
+    rect.held,
+    rect.combo.held {
+      fill: #0ea5e9;
+      stroke: #38bdf8;
+    }
+
+    /* Legends */
+    text {
+      fill: #e2e8f0;
+    }
+
+    .tap {
+      fill: #f8fafc;
+    }
+
+    .hold {
+      fill: #93c5fd;
+    }
+
+    .shifted {
+      fill: #cbd5e1;
+      opacity: 1.0;
+    }
+
+    /* Combo labels */
+    .combo text {
+      fill: #f8fafc;
+    }
+
+    /* Technique borrowed and extended from
+       https://github.com/englmaxi/zmk-config */
+
     .sym_sub_text.tap {
       translate: -5px 2px;
       font-size: 20px;
     }
+
     .sym_sub_text.shifted {
       translate: 10px 13px;
       font-size: 10px;
       opacity: 1.0;
     }
+
     .combo.sym_sub_text.tap {
       translate: -1px 1px;
     }
+
     .combo.sym_sub_text.shifted {
       translate: 7px 5px;
       font-size: 10px;
@@ -63,6 +111,7 @@ draw_config:
     }
 
     /* Toggle */
+
     .toggle.shifted {
       translate: -10px 12px;
     }
@@ -71,21 +120,25 @@ draw_config:
       translate: 13px -23px;
     }
 
-    /* Variant for tap-dances */
+    /* Tap Dance */
+
     .tap_dance.tap {
       translate: -7px 0px;
       font-size: 12px;
     }
+
     .tap_dance.shifted {
       translate: 7px 17px;
       font-size: 12px;
       opacity: 1.0;
     }
 
-    /* Variant for symbol next to symbol */
+    /* Symbol by Symbol */
+
     .sym_by_sym.tap {
       translate: -6px 0px;
     }
+
     .sym_by_sym.shifted {
       translate: 10px 12px;
       opacity: 1.0;
@@ -94,6 +147,7 @@ draw_config:
     .combo.sym_by_sym.tap {
       translate: -35px 0px;
     }
+
     .combo.sym_by_sym.shifted {
       translate: 35px 20px;
       opacity: 1.0;
@@ -103,22 +157,25 @@ draw_config:
       visibility: hidden;
     }
 
-    /* hide hold box for combo sym_by_sym */
     .combo.sym_by_sym.hold > path[stroke="none"][fill="none"] {
       visibility: hidden;
     }
 
   shrink_wide_legends: 6
+
   glyph_tap_size: 18
   glyph_hold_size: 15
   glyph_shifted_size: 15
+
   glyphs: {}
+
   glyph_urls:
     tabler: https://unpkg.com/@tabler/icons/icons/outline/{}.svg
     tablerf: https://unpkg.com/@tabler/icons/icons/filled/{}.svg
     mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
     mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
     material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
+
   use_local_cache: true
 
 parse_config:
