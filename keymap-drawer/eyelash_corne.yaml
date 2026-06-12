@@ -24,8 +24,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: J, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}

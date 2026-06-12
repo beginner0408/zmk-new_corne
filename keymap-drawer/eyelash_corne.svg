@@ -492,13 +492,13 @@ text.label,
 <rect rx="12" ry="12" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">J</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(784, 84)" class="key keypos-24">
 <rect rx="12" ry="12" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">K</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(840, 91)" class="key keypos-25">
 <rect rx="12" ry="12" x="-26" y="-26" width="52" height="52" class="key side"/>
