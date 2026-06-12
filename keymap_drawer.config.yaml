@@ -2,8 +2,8 @@ draw_config:
   n_columns: 1
   draw_key_sides: true
 
-  key_w: 64.0
-  key_h: 60.0
+  key_w: 60.0
+  key_h: 56.0
 
   split_gap: 45.0
 
@@ -32,63 +32,61 @@ draw_config:
       font-size: 12px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      background: #0f172a;
     }
 
     /* Layer titles */
-    .layer-header {
+    .label {
+      fill: #e2e8f0;
       font-size: 18px;
       font-weight: 700;
-      fill: #e2e8f0;
     }
 
-    /* Main keys */
-    rect.key {
+    /* Normal keys */
+    .key rect {
       fill: #1e293b;
       stroke: #475569;
       stroke-width: 1.5;
     }
 
-    /* Combo boxes */
-    rect.combo {
+    /* Combo keys */
+    .combo rect {
       fill: #334155;
       stroke: #64748b;
       stroke-width: 1.2;
     }
 
     /* Held keys */
-    rect.held,
-    rect.combo.held {
+    .held rect {
       fill: #0ea5e9;
       stroke: #38bdf8;
     }
 
-    /* Legends */
-    text {
-      fill: #e2e8f0;
-    }
-
-    .tap {
+    /* Text */
+    .key text {
       fill: #f8fafc;
     }
 
+    .combo text {
+      fill: #f8fafc;
+    }
+
+    /* Hold legends */
     .hold {
       fill: #93c5fd;
     }
 
+    /* Shift legends */
     .shifted {
       fill: #cbd5e1;
       opacity: 1.0;
     }
 
-    /* Combo labels */
-    .combo text {
+    /* Tap legends */
+    .tap {
       fill: #f8fafc;
     }
 
-    /* Technique borrowed and extended from
-       https://github.com/englmaxi/zmk-config */
-
+    /* Symbol subtext */
     .sym_sub_text.tap {
       translate: -5px 2px;
       font-size: 20px;
@@ -111,7 +109,6 @@ draw_config:
     }
 
     /* Toggle */
-
     .toggle.shifted {
       translate: -10px 12px;
     }
@@ -120,8 +117,7 @@ draw_config:
       translate: 13px -23px;
     }
 
-    /* Tap Dance */
-
+    /* Tap dance */
     .tap_dance.tap {
       translate: -7px 0px;
       font-size: 12px;
@@ -133,8 +129,7 @@ draw_config:
       opacity: 1.0;
     }
 
-    /* Symbol by Symbol */
-
+    /* Symbol by symbol */
     .sym_by_sym.tap {
       translate: -6px 0px;
     }
