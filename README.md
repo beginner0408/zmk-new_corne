@@ -3,12 +3,11 @@
 
 # Eyelash Corne ZMK Repository with Timeless Home Row Mods
 
-**This keyboard is not the same as [foostan's Corne](https://github.com/foostan/crkbd). It will not work with standard `corne` firmware.**
 
 ![Photo of Eyelash Peripherals Corne](images/1000045951_20260613_033133_ImageCraft.webp)
 
-nice!view custom image/animation sheild added
-Timeless Home Row Mods added
+**nice!view custom image/animation shield added.**  
+**Timeless Home Row Mods added.**
 
 ## Keymap Diagram
 
