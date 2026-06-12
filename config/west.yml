@@ -9,9 +9,6 @@ manifest:
     - name: beginner0408
       url-base: https://github.com/beginner0408
   projects:
-    - name: eyelash_corne
-      url: https://github.com/a741725193/zmk-new_corne
-      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
