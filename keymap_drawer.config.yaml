@@ -214,10 +214,10 @@ parse_config:
       shifted: $$mdi:apple-keyboard-shift$$
     "&hmr RCTRL J":
       tap: 'J'
-      shifted: $$mdi:apple-keyboard-shift$$
+      shifted: $$mdi:apple-keyboard-control$$
     "&hmr RSHFT K":
       tap: 'K'
-      shifted: $$mdi:apple-keyboard-control$$
+      shifted: $$mdi:apple-keyboard-shift$$
     "&hmr RALT L":
       tap: 'L'
       shifted: $$mdi:apple-keyboard-option$$
