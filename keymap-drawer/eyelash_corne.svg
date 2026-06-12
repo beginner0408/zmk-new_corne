@@ -221,8 +221,8 @@ svg.keymap {
 }
 
 /* Layer titles */
-.label {
-  fill: #e2e8f0;
+text.label {
+  fill: #0f172a;
   font-size: 18px;
   font-weight: 700;
 }
