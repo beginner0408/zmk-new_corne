@@ -5,13 +5,13 @@ draw_config:
   key_w: 60.0
   key_h: 56.0
 
-  split_gap: 45.0
+  split_gap: 60.0
 
   combo_w: 28.0
   combo_h: 26.0
 
-  key_rx: 10.0
-  key_ry: 10.0
+  key_rx: 12.0
+  key_ry: 12.0
 
   inner_pad_w: 2.0
   inner_pad_h: 2.0
@@ -38,37 +38,35 @@ draw_config:
     text.label,
     .label,
     .layer-title {
-      fill: #111827 !important;
+      fill: #e2e8f0 !important;
       font-size: 18px;
       font-weight: 800;
+      letter-spacing: 1px;
     }
 
-    /* Keycaps */
+    /* Main keys */
     .key rect {
-      fill: #1e293b;
-      stroke: #475569;
+      fill: #0f172a;
+      stroke: #334155;
       stroke-width: 1.5;
     }
 
-    /* Combos */
+    /* Combo keys */
     .combo rect {
-      fill: #334155;
-      stroke: #64748b;
+      fill: #1e293b;
+      stroke: #475569;
       stroke-width: 1.2;
     }
 
-    /* Held */
+    /* Held keys */
     .held rect,
     .combo.held rect {
-      fill: #0ea5e9;
-      stroke: #38bdf8;
+      fill: #2563eb;
+      stroke: #60a5fa;
     }
 
-    /* Key legends */
-    .key text {
-      fill: #f8fafc;
-    }
-
+    /* Main text */
+    .key text,
     .combo text {
       fill: #f8fafc;
     }
@@ -80,7 +78,7 @@ draw_config:
 
     /* Shift legends */
     .shifted {
-      fill: #cbd5e1;
+      fill: #94a3b8;
       opacity: 1;
     }
 
@@ -122,7 +120,7 @@ draw_config:
 
     /* Tap Dance */
     .tap_dance.tap {
-      translate: -7px 0;
+      translate: -7px 0px;
       font-size: 12px;
     }
 
@@ -134,7 +132,7 @@ draw_config:
 
     /* Symbol by Symbol */
     .sym_by_sym.tap {
-      translate: -6px 0;
+      translate: -6px 0px;
     }
 
     .sym_by_sym.shifted {
@@ -143,7 +141,7 @@ draw_config:
     }
 
     .combo.sym_by_sym.tap {
-      translate: -35px 0;
+      translate: -35px 0px;
     }
 
     .combo.sym_by_sym.shifted {
@@ -155,6 +153,7 @@ draw_config:
       visibility: hidden;
     }
 
+    /* Hide hold box for combo sym_by_sym */
     .combo.sym_by_sym.hold > path[stroke="none"][fill="none"] {
       visibility: hidden;
     }
