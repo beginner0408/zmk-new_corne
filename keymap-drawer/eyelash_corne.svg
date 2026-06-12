@@ -246,9 +246,20 @@ text.label,
 .label,
 .layer-title {
   fill: #e2e8f0 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  paint-order: fill !important;
+
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+
+/* 혹시 Keymap Drawer가 제목 외곽선을 별도 텍스트로 그리는 경우 */
+text.label *,
+.label *,
+.layer-title * {
+  stroke: none !important;
 }
 
 /* Main keys */
