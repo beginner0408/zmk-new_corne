@@ -3,11 +3,11 @@ draw_config:
   draw_key_sides: true
   key_w: 60.0
   key_h: 56.0
-  split_gap: 30.0
+  split_gap: 45.0
   combo_w: 28.0
   combo_h: 26.0
-  key_rx: 6.0
-  key_ry: 6.0
+  key_rx: 10.0
+  key_ry: 10.0
   inner_pad_w: 2.0
   inner_pad_h: 2.0
   outer_pad_w: 40.0
@@ -20,7 +20,7 @@ draw_config:
     /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
     svg.keymap {
-      font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+      font-family: JetBrains Mono, Cascadia Code, Ubuntu Mono, monospace;
       font-size: 12px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
@@ -28,7 +28,7 @@ draw_config:
 
     /* Color accent for held keys */
     rect.held, rect.combo.held {
-        fill: #ffc;
+        fill: #e0f2fe;
     }
 
     /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
