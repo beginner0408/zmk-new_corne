@@ -30,7 +30,19 @@ draw_config:
     rect.held, rect.combo.held {
         fill: #e0f2fe;
     }
+    
+    .layer-header {
+    font-size: 18px;
+    font-weight: 700;
+    }
 
+    rect.key {
+    fill: #f8fafc;
+    }
+    
+    rect.combo {
+        fill: #f1f5f9;
+    }
     /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
     .sym_sub_text.tap {
       translate: -5px 2px;
