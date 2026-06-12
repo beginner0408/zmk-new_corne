@@ -13,8 +13,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
-    - name: urchin-peripheral-animation   #new entry
-      remote: beginner0408                       #new entry
+    - name: urchin-peripheral-animation
+      remote: beginner0408
       revision: main
   self:
     path: config
