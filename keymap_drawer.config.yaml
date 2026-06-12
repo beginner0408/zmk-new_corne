@@ -200,31 +200,55 @@ parse_config:
       tap: $$mdi:backspace-reverse-outline$$
       hold: $$mdi:navigation-variant$$
     # Home rows
-    "&hm LEFT_GUI A":
+    "&hml LGUI A":
       tap: 'A'
       shifted: $$mdi:apple-keyboard-command$$
-    "&hm LEFT_ALT S":
+    "&hml LALT S":
       tap: 'S'
       shifted: $$mdi:apple-keyboard-option$$
-    "&hm LEFT_CONTROL D":
+    "&hml LCTRL F":
       tap: 'D'
       shifted: $$mdi:apple-keyboard-control$$
-    "&hm LEFT_SHIFT F":
+    "&hml LSHFT D":
       tap: 'F'
       shifted: $$mdi:apple-keyboard-shift$$
-    "&hm RIGHT_SHIFT J":
+    "&hmr RCTRL J":
       tap: 'J'
       shifted: $$mdi:apple-keyboard-shift$$
-    "&hm RIGHT_CONTROL K":
+    "&hmr RSHFT K":
       tap: 'K'
       shifted: $$mdi:apple-keyboard-control$$
-    "&hm RIGHT_ALT L":
+    "&hmr RALT L":
       tap: 'L'
       shifted: $$mdi:apple-keyboard-option$$
+
+    "&hmr RGUI SEMI":
+      tap: ";"
+      shifted: $$mdi:apple-keyboard-command$$
+
+    "&esc_tilde":
+      tap: $$mdi:keyboard-esc$$
+      shifted: "~"
+
+    "&soft_off":
+      tap: $$mdi:power-sleep$$
+
+    "&rgb_ug RGB_BRD":
+      tap: $$mdi:brightness-4$$
+
+    "&rgb_ug RGB_BRI":
+      tap: $$mdi:brightness-7$$
+
+    "&rgb_ug RGB_EFR":
+      tap: $$mdi:arrow-left-right$$
+
+    "&rgb_ug RGB_EFF":
+      tap: $$mdi:palette$$
+
+    "&rgb_ug RGB_TOG":
+      tap: $$mdi:lightbulb$$
+
     # self behaviors
-    "&hm LG(LS(V)) P":
-      tap: 'P'
-      shifted: $$mdi:content-copy$$
     # Mouse
     "&msc SCRL_UP":
       tap: $$mdi:pan-up$$
@@ -541,6 +565,9 @@ parse_config:
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
+    BT_CLR_ALL: $$mdi:bluetooth-off$$
+    BT_PRV: $$mdi:arrow-up-bold$$
+    BT_NXT: $$mdi:arrow-down-bold$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
