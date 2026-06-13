@@ -241,8 +241,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NUMNAV}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - $$mdi:apple-keyboard-option$$
   - FUNC
 combos:
