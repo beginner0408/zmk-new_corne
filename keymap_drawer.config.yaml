@@ -623,7 +623,7 @@ parse_config:
 
   zmk_combos:
     softoff:
-      align: bottom
+      align: top
       offset: 0.3
     combo_to_2:
       align: top
