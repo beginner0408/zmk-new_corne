@@ -235,6 +235,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 
 svg.keymap {
+  background: #22272e;
   font-family: JetBrains Mono, Cascadia Code, Ubuntu Mono, monospace;
   font-size: 12px;
   font-weight: bold;
