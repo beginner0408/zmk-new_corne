@@ -250,7 +250,4 @@ combos:
   k: $$mdi:power-sleep$$
 - p: [44, 45]
   k: {t: QWERTY, h: toggle}
-  l: [HRM]
-- p: [44, 45]
-  k: {t: QWERTY, h: toggle}
-  l: [QWERTY]
+  l: [HRM, QWERTY]
