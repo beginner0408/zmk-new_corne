@@ -95,17 +95,10 @@
             key-positions = <1 15 29>;
         };
 
-        combo_qwerty_toggle_on {
+        combo_qwerty_toggle {
             timeout-ms = <60>;
             key-positions = <44 45>;
-            layers = <0>;
-            bindings = <&tog 4>;
-        };
-        
-        combo_qwerty_toggle_off {
-            timeout-ms = <60>;
-            key-positions = <44 45>;
-            layers = <4>;
+            layers = <0 4>;
             bindings = <&tog 4>;
         };
     };
