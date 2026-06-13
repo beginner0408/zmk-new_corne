@@ -1,11 +1,11 @@
-- [Chinese](README.md)
-- [English](README_EN.md)
+- [Original REPO INST](README_EN.md) 
 
 # Eyelash Corne ZMK Repository with Timeless Home Row Mods
 
 
 ![Photo of Eyelash Peripherals Corne](images/1000045951_20260613_033133_ImageCraft.webp)
 
+ 
 **nice!view custom image/animation shield added.**  
 **Timeless Home Row Mods added.**
 
