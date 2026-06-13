@@ -95,19 +95,20 @@
             key-positions = <1 15 29>;
         };
 
-        combo_game_enter {
+        combo_qwerty_toggle_on {
             timeout-ms = <60>;
             key-positions = <44 45>;
             layers = <0>;
-            bindings = <&to 4>;
+            bindings = <&tog 4>;
         };
         
-        combo_game_exit {
+        combo_qwerty_toggle_off {
             timeout-ms = <60>;
             key-positions = <44 45>;
             layers = <4>;
-            bindings = <&to 0>;
+            bindings = <&tog 4>;
         };
+    };
 
     keymap {
         compatible = "zmk,keymap";
