@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  '4':
+  QWERTY:
   - {t: '$$mdi:keyboard-esc$$', s: '~'}
   - Q
   - W
@@ -248,3 +248,9 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: $$mdi:power-sleep$$
+- p: [44, 45]
+  k: {t: QWERTY, h: toggle}
+  l: [HRM]
+- p: [44, 45]
+  k: {t: HRM, h: toggle}
+  l: [QWERTY]
