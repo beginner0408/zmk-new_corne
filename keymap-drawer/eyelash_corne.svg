@@ -245,7 +245,7 @@ svg.keymap {
 text.label,
 .label,
 .layer-title {
-   fill: #e2e8f0 !important;
+   fill: #1e293b !important;
 
   stroke: #ffffff !important;
   stroke-width: 1.2px !important;
@@ -256,13 +256,6 @@ text.label,
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 1px;
-}
-
-/* 혹시 Keymap Drawer가 제목 외곽선을 별도 텍스트로 그리는 경우 */
-text.label *,
-.label *,
-.layer-title * {
-  stroke: none !important;
 }
 
 /* Main keys */
