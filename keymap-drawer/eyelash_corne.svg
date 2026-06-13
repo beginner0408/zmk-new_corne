@@ -1695,8 +1695,8 @@ text.label *,
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="12" ry="12" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#HRM">
-<text x="490" y="225" class="combo tap layer-activator">HRM</text>
+<a href="#QWERTY">
+<text x="490" y="225" class="combo tap layer-activator">QWERTY</text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 </g>

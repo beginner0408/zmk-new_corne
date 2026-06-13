@@ -252,5 +252,5 @@ combos:
   k: {t: QWERTY, h: toggle}
   l: [HRM]
 - p: [44, 45]
-  k: {t: HRM, h: toggle}
+  k: {t: QWERTY, h: toggle}
   l: [QWERTY]
