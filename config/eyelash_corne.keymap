@@ -95,18 +95,18 @@
             key-positions = <1 15 29>;
         };
 
-        combo_qwerty_toggle_on {
+        combo_game_enter {
             timeout-ms = <60>;
             key-positions = <44 45>;
             layers = <0>;
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
         };
         
-        combo_qwerty_toggle_off {
+        combo_game_exit {
             timeout-ms = <60>;
             key-positions = <44 45>;
             layers = <4>;
-            bindings = <&tog 4>;
+            bindings = <&to 0>;
         };
 
     keymap {
