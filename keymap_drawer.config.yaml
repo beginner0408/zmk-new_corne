@@ -38,10 +38,13 @@ draw_config:
     text.label,
     .label,
     .layer-title {
-      fill: #e2e8f0 !important;
-      stroke: none !important;
-      stroke-width: 0 !important;
-      paint-order: fill !important;
+       fill: #e2e8f0 !important;
+    
+      stroke: #ffffff !important;
+      stroke-width: 1.2px !important;
+    
+      paint-order: stroke fill;
+      stroke-linejoin: round;
     
       font-size: 18px;
       font-weight: 800;
