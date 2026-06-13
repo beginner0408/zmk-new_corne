@@ -1,4 +1,4 @@
-- [Original REPO INST](README_EN.md) 
+- [Original Repository README](README_EN.md)
 
 # Eyelash Corne ZMK Repository with Timeless Home Row Mods
 
