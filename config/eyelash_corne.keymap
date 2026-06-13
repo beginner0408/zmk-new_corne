@@ -95,22 +95,12 @@
             key-positions = <1 15 29>;
         };
 
-        combo_game_enter {
+        combo_qwerty_toggle {
             timeout-ms = <60>;
-            require-prior-idle-ms = <150>;
             key-positions = <44 45>;
-            layers = <0>;
-            bindings = <&to 4>;
+            layers = <0 4>;
+            bindings = <&tog 4>;
         };
-
-        combo_game_exit {
-            timeout-ms = <60>;
-            require-prior-idle-ms = <150>;
-            key-positions = <44 45>;
-            layers = <4>;
-            bindings = <&to 0>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
