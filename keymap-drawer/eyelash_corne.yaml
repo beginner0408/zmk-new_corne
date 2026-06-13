@@ -248,6 +248,8 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: $$mdi:power-sleep$$
+  a: bottom
+  o: 0.3
 - p: [44, 45]
   k: {t: QWERTY, h: toggle}
   l: [HRM, QWERTY]

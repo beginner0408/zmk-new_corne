@@ -633,9 +633,11 @@ text.label,
 <text x="0" y="-4" class="key tap layer-activator">FUNC</text>
 </a></g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="12" ry="12" x="85" y="83" width="36" height="34" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="91" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M103,207 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-91" class="combo"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<rect rx="12" ry="12" x="85" y="190" width="36" height="34" class="combo"/>
+<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="198" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
 </g>
 <g class="combo combopos-1">
 <path d="M490,225 l-123,0" class="combo"/>
@@ -901,9 +903,11 @@ text.label,
 <text x="0" y="-4" class="key tap layer-activator">FUNC</text>
 </a></g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="12" ry="12" x="85" y="83" width="36" height="34" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="91" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M103,207 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-91" class="combo"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<rect rx="12" ry="12" x="85" y="190" width="36" height="34" class="combo"/>
+<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="198" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
 </g>
 <g class="combo combopos-1">
 <path d="M490,225 l-123,0" class="combo"/>
@@ -1174,9 +1178,11 @@ text.label,
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="12" ry="12" x="85" y="83" width="36" height="34" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="91" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M103,207 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-91" class="combo"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<rect rx="12" ry="12" x="85" y="190" width="36" height="34" class="combo"/>
+<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="198" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
 </g>
 </g>
 </g>
@@ -1434,9 +1440,11 @@ text.label,
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="12" ry="12" x="85" y="83" width="36" height="34" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="91" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M103,207 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-91" class="combo"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<rect rx="12" ry="12" x="85" y="190" width="36" height="34" class="combo"/>
+<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="198" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
 </g>
 </g>
 </g>
@@ -1691,9 +1699,11 @@ text.label,
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="12" ry="12" x="85" y="83" width="36" height="34" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="91" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-133" class="combo"/>
+<path d="M103,207 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-91" class="combo"/>
+<path d="M103,207 h-13 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<rect rx="12" ry="12" x="85" y="190" width="36" height="34" class="combo"/>
+<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="94" y="198" height="18" width="18.0" class="combo tap glyph mdi:power-sleep"/>
 </g>
 </g>
 </g>
