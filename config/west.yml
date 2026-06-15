@@ -13,7 +13,7 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
-    - name: urchin-peripheral-animation
+    - name: nice-view-mod 
       remote: beginner0408
       revision: main
   self:
